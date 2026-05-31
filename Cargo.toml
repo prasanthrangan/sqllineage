@@ -1,0 +1,9 @@
+[package]
+name = "sqllineage"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sqlparser = "0.62"
+anyhow = "1"
+regex = "1"

@@ -1,2 +1,2 @@
 # sqllineage
-// simple CLI tool to analyze your SQL and generate lineage
+// a simple cli tool to analyze your sql statements and generate lineage
