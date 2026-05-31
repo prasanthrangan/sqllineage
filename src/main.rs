@@ -1,5 +1,5 @@
 // ------------------------------------------------------------------------- / prasanth rangan
-// sqllineage
+// sqLLineage
 // a simple cli tool to analyze your sql and generate lineage
 //
 
