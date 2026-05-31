@@ -104,6 +104,8 @@ AND log_date < '2023-01-01';
 ```bash
 ❯ sqllineage --input sample.sql
 
+-- 1. Select --
+
 Sources: ["employees", "employees", "emp_tree", "emp_tree", "departments"]
 Target:  None
 
