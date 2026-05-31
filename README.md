@@ -46,7 +46,7 @@ sqllineage --input /path/to/query.sql --output /path/to/query.out
 ## Sample
 
 ```bash
-󰣇 2B/Dev/rust ❯ cat sample.sql
+❯ cat sample.sql
 
 -- 1. Recursive CTE to generate employee hierarchy
 WITH RECURSIVE emp_tree AS (
@@ -102,7 +102,7 @@ AND log_date < '2023-01-01';
 
 ```
 ```bash
-󰣇 2B/Dev/rust ❯ sqllineage --input sample.sql
+❯ sqllineage --input sample.sql
 
 Sources: ["employees", "employees", "emp_tree", "emp_tree", "departments"]
 Target:  None
