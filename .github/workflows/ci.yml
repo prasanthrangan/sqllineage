@@ -15,12 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Toolchain
-        run: rustup toolchain install stable --profile minimal
-
-      - name: Cache
-        uses: Swatinem/rust-cache@v2
-
       - name: Execute
         run: cargo run --release -- --input tests/sample.sql
 
